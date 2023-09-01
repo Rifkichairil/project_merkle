@@ -47,7 +47,4 @@ note: disini saya menggunakan auth sanctum untuk proses login pada api admin.
 note: biasanya ketika malakukan clone akan terjadi route not devine, bisa diatasi dengan cara
     == php artisan route:cache
 
-//. untuk link postman
-    == https://propertreeid.postman.co/workspace/Locale-Prop~92fddaae-9058-4d2c-adc2-598a40ae9a65/collection/6333279-3b29f967-97d9-451b-97f0-3c3e3e2cf1cf?action=share&creator=6333279&active-environment=6333279-6e532efb-0bd8-4d84-b7ee-f9a7b56d57f9
-
 //. unutk validasi pada phone. saya tidak menggunakan required karena takut data tersebut disalah gunakan.
