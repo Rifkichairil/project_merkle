@@ -1,5 +1,5 @@
 ====== soal no 2.
-
+== menggunakan laravel 10, serta database mysql.
 //. clone project_merkle pada url berikut.
     == https://github.com/Rifkichairil/project_merkle
 
