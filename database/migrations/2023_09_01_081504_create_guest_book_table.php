@@ -11,11 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // Pembuatan table guest_book menggunkan migrate dengan data yang ada dibawah.
         Schema::create('guest_book', function (Blueprint $table) {
             $table->id();
             $table->string('name', 150);
-            $table->text('address');
-            $table->string('phone',25);
+            $table->string('address', 255);
+            $table->string('phone',25)->nullable();
             $table->text('comment');
             $table->timestamps();
             $table->softDeletes();
